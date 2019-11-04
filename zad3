@@ -1,0 +1,29 @@
+
+print ("Czy chcesz zamienić temperature z Celsjusza na Farenhajta t/n?")
+odpowiedz = input()
+if(odpowiedz == "t"): 
+   print ('Wprowadz temperature Celsjusza')
+
+   t = input()
+   t = int(t)
+   print ("Temperatura Fahrenheita to:")
+   f = (t*9/5)+32
+   print (float(f))
+   print ("Czy chcesz zamienić temperature z Farenhajta na Celsjusza t/n?")
+   odpowiedz1 = input()
+
+elif(odpowiedz =="n"):
+    print("Czy chcesz zamienić temperature z Farenhajta na Celsjusza t/n?")
+    odpowiedz1 = input()
+if(odpowiedz1 == "t"): 
+ 
+
+  print ('Wprowadz temperature Farenhajta')
+
+  a = input()
+  a = int(a)
+  print ("Temperatura Celsjusza to:")
+
+  c = (a*(5/9)+32)
+  print (float(c))
+  
