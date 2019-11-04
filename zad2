@@ -1,0 +1,10 @@
+print ('wprowadź liczbe')
+a = input()
+
+print ('enter a number:')
+print (a)
+
+for b in range(1, 11):
+
+    print(float(a),"x",float(b),'=',float(b)*float(a))
+   
