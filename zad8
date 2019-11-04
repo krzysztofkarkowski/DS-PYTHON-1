@@ -1,0 +1,10 @@
+while True:
+    print("Nie wpisuj liczby 3")
+    x = float(input())
+    print (x)
+    if x==3:
+     print("Przegrałeś!")
+     break
+        
+        
+        
