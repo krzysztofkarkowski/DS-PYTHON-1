@@ -1,0 +1,29 @@
+
+print ("Czy chcesz zamienić kilometry na mile t/n?")
+odpowiedz = input()
+if(odpowiedz == "t"): 
+   print ('Ile kilometrów?')
+
+   t = input()
+   t = int(t)
+   print (t,"kilometrów to:")
+   m=0.6215*t
+   print (float(m),"mil")
+   print ("Czy chcesz zamienić mile na kilometry t/n?")
+   odpowiedz1 = input()
+
+elif(odpowiedz =="n"):
+    print("Czy chcesz zamienić mile na kilometry t/n?")
+    odpowiedz1 = input()
+if(odpowiedz1 == "t"): 
+ 
+
+  print ('Ile mil')
+
+  a = input()
+  a = int(a)
+  print (a,"mil to:")
+
+  km=1.609*a
+  print (km,"kilometrów")
+  
