@@ -1,0 +1,6 @@
+def suma(a,b): 
+  suma = 0
+  for i in range(a,b+1):
+     suma = suma + i
+     print (i)
+  print(suma)
