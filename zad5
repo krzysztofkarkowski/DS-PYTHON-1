@@ -1,0 +1,17 @@
+from math import *
+
+print ("wpisz dane trójmianu kwadratowego. Wpisz a")
+a = float(input())
+print ("Wpisz b")
+b = float(input())
+print ("Wpisz c")
+c = float(input())
+delta = b*b-4*a*c
+print (delta)
+if delta<0:
+    print("nie ma rozwiązań")
+elif delta>0:
+    
+    x1 = (-b+sqrt(delta))/(2*a)
+    x2 = (-b-sqrt(delta))/(2*a)
+    print (x1,x2)
