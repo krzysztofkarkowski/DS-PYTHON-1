@@ -1,0 +1,29 @@
+import numpy as np
+
+def srednia(*lista):
+   
+   for i in range (0, len(list(lista))):
+      srednia = np.mean(lista)
+      odch = np.std(lista)
+   print(lista)
+   print (srednia)
+   print (odch)
+
+
+
+
+
+
+import numpy as np
+
+n = int(input("Podaj ile elementów ma mieć lista"))
+
+lista = []
+for i in range (0, n):
+    dane = float(input("Podaj element: "))
+    lista.append(dane)
+    srednia = np.mean(lista)
+    odch = np.std(lista)
+print(lista)
+print (srednia)
+print (odch)
